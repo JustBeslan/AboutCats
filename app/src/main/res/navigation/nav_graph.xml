@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigationGraph"
+    app:startDestination="@id/catsFragment"
+    tools:ignore="InvalidNavigation">
+
+    <fragment
+        android:id="@+id/catsFragment"
+        android:name="about.cats.view.fragments.CatsFragment"
+        android:label="@string/cats"
+        tools:layout="@layout/fragment_cats"/>
+
+    <fragment
+        android:id="@+id/favoriteCatsFragment"
+        android:name="about.cats.view.fragments.FavoriteCatsFragment"
+        android:label="@string/favorite_cats"
+        tools:layout="@layout/fragment_favorite_cats"/>
+
+</navigation>

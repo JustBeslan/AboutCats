@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">About Cats</string>
+    <string name="cat_avatar">Cat Avatar</string>
+    <string name="phone_has_no_internet_connection">Phone has no internet connection</string>
+    <string name="try_again">Try again</string>
+    <string name="close">Close</string>
+    <string name="copied">Copied</string>
+    <string name="download_image">Download image</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="no_cat_info">No information about the cat</string>
+    <string name="error_cats_load">error cats load</string>
+    <string name="like">like</string>
+    <string name="dislike">dislike</string>
+    <string name="there_are_no_favorite_cats">There are no favorite cats</string>
+
+    <string name="favorite_cats">Favorite cats</string>
+    <string name="cats">Cats</string>
+
+</resources>
